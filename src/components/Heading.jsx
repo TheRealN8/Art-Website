@@ -1,5 +1,5 @@
 import React from "react";
-import "./Header.css";
+import "./styles//Header.css";
 
 function Heading() {
     
@@ -11,7 +11,6 @@ function Heading() {
                 <h2>Catchphrase</h2>
             </div>
         </div>
-   
     )
 
 };

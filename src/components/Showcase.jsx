@@ -1,5 +1,5 @@
 import React from "react";
-import "./Showcase.css"
+import "./styles/Showcase.css"
 
 function Showcase(){
 
