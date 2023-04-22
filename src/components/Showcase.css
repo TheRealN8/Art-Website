@@ -1,6 +1,6 @@
 .showcase-container {
     background-color: purple;
-    padding: 50px;
+    padding: 3.125rem;
     text-align: center;
     margin: 0rem 35rem 0rem;
     margin-top: 5rem;
@@ -8,12 +8,12 @@
   
   .image-container {
     margin: 0 auto;
-    max-width: 80%;
+    max-width: 60%;
   }
   
   .image-container img {
     max-width: 100%;
-    height: auto;
+    height: 80%;
     border: 1px solid #ddd;
     border-radius: 5px;
   }

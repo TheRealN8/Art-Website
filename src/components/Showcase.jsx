@@ -7,10 +7,10 @@ function Showcase(){
         <div className="showcase-container">
             <h2>My Showcase</h2>
             <div className="image-container">
-                <img src="./images/exampleArt.jpg" alt="Example Art"/>
+                <img src="https://lh3.googleusercontent.com/ci/AJFM8rwBrYDwhlUFg3Nl4DUeHmjmJBWm8iO3wf-ZN1lMxfR7pd1R8gmjdFYHK9UXICEZv9xQNpLoLw" alt="Example Art"/>
             </div>
 
-            <p className="image-caption">Example work</p>
+            <p className="image-caption">Image Name</p>
         
         </div>
     )

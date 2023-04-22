@@ -10,8 +10,6 @@ function Nav(){
             <button className="navButton">Artwork</button>
             <button className="navButton">Courses</button>
             <button className="navButton">About Me</button>
-
-
         </div>
         
 
