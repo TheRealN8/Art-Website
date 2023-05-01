@@ -1,0 +1,26 @@
+
+h1{
+    font-size: 3rem;
+}
+
+.section{
+    margin-left: 15%;
+}
+
+
+.about-info{
+    display: flex;
+}
+
+.text{
+    width: 40%;
+    font-size: 1.50rem;
+}
+
+.about-image{
+    margin-left: 4rem;
+    margin-bottom: 10rem;
+    margin-top: -5rem;
+}
+
+

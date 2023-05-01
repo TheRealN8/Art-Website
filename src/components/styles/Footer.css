@@ -1,5 +1,4 @@
 .footer {
-    
     bottom: 0;
     height: 5rem;
     width: 100%;
@@ -8,6 +7,4 @@
     text-align: center;
     flex-direction: column; 
 
-   
-   
 }

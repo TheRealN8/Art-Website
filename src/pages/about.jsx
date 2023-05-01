@@ -1,11 +1,10 @@
 import React from 'react';
+import AboutMe from '../components/AboutMe';
 
 
 function About() {
     return (
-      <div>
-        About Me
-      </div>
+      <AboutMe />
     );
 }
 
