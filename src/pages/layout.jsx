@@ -10,6 +10,7 @@ const Layout = () => {
       <Heading />
       <Nav />
       <Outlet />
+      <Footer/>
     </div>
   );
 };

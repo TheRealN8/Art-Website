@@ -1,0 +1,9 @@
+.card{
+    border: 5px solid #798b99;
+    border-image-width: auto;
+    display: inline-block;
+    margin: 3.125rem;
+    box-sizing: border-box;
+    
+
+}
