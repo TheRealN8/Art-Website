@@ -1,6 +1,7 @@
 .heading{
     display: flex;
     text-align: center;
+    justify-content: center;
     flex-direction: column;
     margin-bottom: -75px;
     padding: 0;

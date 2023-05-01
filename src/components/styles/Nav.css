@@ -29,3 +29,7 @@
   cursor: pointer;
   transform: scale(1.05);
 }
+
+.artwork-dropdown {
+  position: absolute;
+}
