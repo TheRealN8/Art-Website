@@ -5,7 +5,7 @@ function Card(props){
 
     return(
         <div className="card">
-            <img src="https://picsum.photos/500" />
+            <img src="https://picsum.photos/500" alt='Display of art'/>
         </div>
 
     );

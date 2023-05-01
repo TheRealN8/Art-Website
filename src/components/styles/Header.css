@@ -2,16 +2,14 @@
     display: flex;
     text-align: center;
     flex-direction: column;
-    margin: 0;
+    margin-bottom: -75px;
     padding: 0;
-   
 }
 
 .heading h1{
     color: #595b5c;
     font-size: 4rem;
     font-family: 'Balthazar', serif;
-   
 }
 
 .catchphrase{
@@ -20,5 +18,4 @@
     margin-top: 0px;
     transform: translateY(-4.5rem);
     font-family: 'Balthazar', serif;
-    
 }
