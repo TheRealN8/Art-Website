@@ -2,9 +2,13 @@ import React from "react";
 import "./styles/Footer.css"
 
 function Footer(){
+    
+    const date = new Date();
+    const currentYear = date.getFullYear();
+    
     return(
-        <div class="footer">
-            <h1>This is the Footer</h1>
+        <div className="footer">
+            <p className="footer-text">©{currentYear} Lantian Art Studio. All rights reserved</p>
         </div>
     )
 }
