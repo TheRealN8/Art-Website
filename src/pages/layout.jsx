@@ -6,7 +6,7 @@ import Nav from "../components/Nav";
 
 const Layout = () => {
   return (
-    <div>
+    <div style={{justifyContent: 'center'}}>
       <Heading />
       <Nav />
       <Outlet />
