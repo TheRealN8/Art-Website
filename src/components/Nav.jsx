@@ -25,9 +25,6 @@ function Nav(){
                     <NavDropdown />
                 }
             </div>
-            {/* <Link to={'/courses'} onMouseEnter={toggleCD} onMouseLeave={toggleCD}>
-                <button className="navButton">Courses</button>
-            </Link> */}
             <div style={{height: courseDropdown ? 'fit-content' : '10px'}} className={clsx('dropdown', {'dropdown-open': courseDropdown})} onMouseEnter={toggleCD} onMouseLeave={toggleCD} >
                 <Link to={'/courses'} >
                     <button className="navButton">Courses</button>
