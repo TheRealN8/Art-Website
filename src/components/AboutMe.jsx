@@ -1,6 +1,8 @@
 import React from "react";
 import "./styles/AboutMe.css"
 
+import aboutMePic from "./images/aboutMePic.JPG";
+
 function AboutMe () {
 
     return(
@@ -15,7 +17,7 @@ function AboutMe () {
                 hgui wahgui wahguwahugiw ahugiuwighu waighuwa ihguwau ghwua ighuwa hgw
                 ugiw ahg uwahugih uwaighwua ihguwahug wahugiuwai ghuwai hugwa hguhiawhgwa
                 </p> 
-                <img className="about-image" src="https://picsum.photos/500/600"/>
+                <img className="about-image" src={aboutMePic}/>
             </div>
         </div>
         

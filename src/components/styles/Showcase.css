@@ -1,23 +1,25 @@
 .showcase-container {
-    background-color: purple;
-    padding: 3.125rem;
-    text-align: center;
-    margin: 0rem 35rem 0rem;
-    margin-top: 5rem;
-  }
+  text-align: center;
+  margin-top: 5rem;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.slideshow{
+  width: 70rem;
+  height: 50rem;
+  margin: 5rem auto 12rem;
+  text-align: center;
   
-  .image-container {
-    margin: 0 auto;
-    max-width: 60%;
-  }
-  
-  .image-container img {
-    max-width: 100%;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-  }
-  
-  .image-caption {
-    font-size: 16px;
-    margin-top: 10px;
-  }
+}
+
+.slideshow-image{
+  width: 70rem;
+  height: 50rem;
+}
+
+
+
