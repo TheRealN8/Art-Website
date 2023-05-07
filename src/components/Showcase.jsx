@@ -1,19 +1,39 @@
 import React from "react";
 import "./styles/Showcase.css"
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from 'react-responsive-carousel';
+
+import landscape1 from "./images/landscape1.jpeg";
+import teapot1 from "./images/teapot1.JPG";
+import boat2 from "./images/boat2.jpg";
+import fruits1 from "./images/fruits1.jpeg";
+import girl4 from "./images/girl4.PNG";
 
 function Showcase(){
 
     return (
-        <div className="showcase-container">
-            <h2>My Showcase</h2>
-            <div className="image-container">
-                <img src="https://lh3.googleusercontent.com/ci/AJFM8rwBrYDwhlUFg3Nl4DUeHmjmJBWm8iO3wf-ZN1lMxfR7pd1R8gmjdFYHK9UXICEZv9xQNpLoLw" alt="Example Art"/>
-            </div>
-
-            <p className="image-caption">Image Name</p>
+        <div className="slideshow-container">
+            <Carousel className="slideshow">
+                <div className="slideshow-image">
+                    <img src={landscape1} />
+                </div>
+                <div className="slideshow-image">
+                    <img src={teapot1} />
+                </div>
+                <div className="slideshow-image">
+                    <img src={boat2} />
+                </div>
+                <div className="slideshow-image">
+                    <img src={fruits1} />
+                </div>
+                <div className="slideshow-image">
+                    <img src={girl4} />
+                </div>
+        </Carousel>
         
         </div>
-    )
+
+    );
 }
 
 export default Showcase;

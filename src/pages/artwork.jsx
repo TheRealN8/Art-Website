@@ -9,6 +9,7 @@ import fruits1 from "../components/images/fruits1.jpeg";
 import dog1 from "../components/images/dog1.JPG";
 import landscape1 from "../components/images/landscape1.jpeg";
 import landscape2 from "../components/images/landscape2.jpg";
+import beach1 from "../components/images/beach1.jpg"
 import boat1 from "../components/images/boat1.JPG";
 import boat2 from "../components/images/boat2.jpg";
 import boat3 from "../components/images/boat3.JPG";
@@ -26,13 +27,14 @@ function Artwork() {
       <div>
         <div className='artGallery'>
           <Card img={tree1}/>
-          <Card img={fruits1}/>
           <Card img={landscape1}/>
           <Card img={landscape2}/>
+          <Card img={beach1}/>
           <Card img={boat1}/>
           <Card img={boat2}/>
           <Card img={boat3}/>
           <Card img={plant1}/>
+          <Card img={fruits1}/>
           <Card img={teapot1}/>
           <Card img={dog1}/>
           <Card img={boy1}/>
