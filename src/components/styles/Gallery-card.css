@@ -5,6 +5,11 @@
 }
 
 .card-image{
-    height: 31.25rem;
-    width: 31.25rem;
+    height: 23.438rem;
+    width: 23.438rem;
+    cursor: pointer;
+}
+
+.card-image:hover{
+    opacity: 90%;
 }

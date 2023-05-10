@@ -2,11 +2,12 @@ import React from 'react';
 import "../../components/styles/Courses.css";
 import boat2 from "../../components/images/boat2.jpg";
 
-function Drawing() {
+
+function CreativeArt() {
     return (
       <div className='container'>
-        <h1>Learn how to create beautiful drawings!!</h1>
-        <h2>Sketching, Pastel, Colour pencil (SEPERATE COURSES)</h2>
+        <h1>Learn how to produce creative art!</h1>
+        <h2>Creative Drawing, Creative Painting (SEPERATE COURSES)</h2>
         <div style={{display: 'flex'}}>
           <div style={{width: '50%', paddingRight: '20px'}}>
             <div style={{padding: '0 10px', width: '100%'}}>
@@ -44,4 +45,4 @@ function Drawing() {
     );
 }
 
-export default Drawing;
+export default CreativeArt;

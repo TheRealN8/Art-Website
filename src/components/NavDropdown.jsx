@@ -5,18 +5,29 @@ import "./styles/Nav.css";
 const NavDropdown = () => {
   return (
     <div  style={{display: 'flex', flexDirection: 'column'}}>
-      <Link to={'/'}>
-        <button className="navButton">Home</button>
+      <Link to={'/course/drawing'}>
+        <button className="navButton nav-button-subsection">Drawing</button>
       </Link>
-      <Link to={'/'}>
-        <button className="navButton">a</button>
+      <Link to={'/course/paintings'}>
+        <button className="navButton nav-button-subsection">Painting</button>
       </Link>
-      <Link to={'/'}>
-        <button className="navButton">s</button>
+      <Link to={'/course/creative-art'}>
+        <button className="navButton nav-button-subsection">Creative Art</button>
       </Link>
-      <Link to={'/'}>
-        <button className="navButton">e</button>
+      <Link to={'/course/digital-art'}>
+        <button className="navButton nav-button-subsection">Digital Art</button>
       </Link>
+      <Link to={'/course/graphic-design'}>
+        <button className="navButton nav-button-subsection">Graphic Design</button>
+      </Link>
+      <Link to={'/course/anime-manga'}>
+        <button className="navButton nav-button-subsection">Anime/Manga</button>
+      </Link>
+      <Link to={'/course/child-programs'}>
+        <button className="navButton nav-button-subsection">Child Programs</button>
+      </Link>
+      
+      
     </div>
   )
 }

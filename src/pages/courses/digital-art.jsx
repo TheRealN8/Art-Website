@@ -1,12 +1,12 @@
 import React from 'react';
 import "../../components/styles/Courses.css";
-import boat2 from "../../components/images/boat2.jpg";
+import girl4 from "../../components/images/girl4.PNG";
 
-function Drawing() {
+function DigitalArt() {
     return (
       <div className='container'>
-        <h1>Learn how to create beautiful drawings!!</h1>
-        <h2>Sketching, Pastel, Colour pencil (SEPERATE COURSES)</h2>
+        <h1>Learn how to create digital art!</h1>
+        <h2>(SOFTWARE USED): IBIS Paint, Procreate (SEPERATE COURSES)</h2>
         <div style={{display: 'flex'}}>
           <div style={{width: '50%', paddingRight: '20px'}}>
             <div style={{padding: '0 10px', width: '100%'}}>
@@ -37,11 +37,11 @@ function Drawing() {
             </div>
           </div>
           <div style={{width: '40%', marginLeft: '50px'}}>
-            <img src={boat2} alt="image" className='course-image'/>
+            <img src={girl4} alt="image" className='course-image'/>
           </div>
         </div>
       </div>
     );
 }
 
-export default Drawing;
+export default DigitalArt;
