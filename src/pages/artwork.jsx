@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "../components/styles/artwork.css"
 import Card from '../components/Gallery-card';
-
+import FsLightbox from "fslightbox-react";
 
 /*IMAGE IMPORTS FOR ARTWORK SECTION*/
 import tree1 from "../components/images/trees1.JPG";
@@ -23,25 +23,37 @@ import girl4 from "../components/images/girl4.PNG";
 
 
 function Artwork() {
+
+    const [toggler, setToggler] = useState(false);
+    const [cardImage, setCardImage] = useState(null);
+    const toggleLightbox = (image) => {
+      setToggler(!toggler);
+      setCardImage(image);
+    };
+
     return (
       <div>
         <div className='artGallery'>
-          <Card img={tree1}/>
-          <Card img={landscape1}/>
-          <Card img={landscape2}/>
-          <Card img={beach1}/>
-          <Card img={boat1}/>
-          <Card img={boat2}/>
-          <Card img={boat3}/>
-          <Card img={plant1}/>
-          <Card img={fruits1}/>
-          <Card img={teapot1}/>
-          <Card img={dog1}/>
-          <Card img={boy1}/>
-          <Card img={girl1}/>
-          <Card img={girl2}/>
-          <Card img={girl3}/>
-          <Card img={girl4}/>
+          <FsLightbox
+				    toggler={toggler}
+				    sources={[cardImage]}
+			    />  
+          <Card toggle={toggleLightbox} img={tree1}/>
+          <Card toggle={toggleLightbox} img={landscape1}/>
+          <Card toggle={toggleLightbox} img={landscape2}/>
+          <Card toggle={toggleLightbox} img={beach1}/>
+          <Card toggle={toggleLightbox} img={boat1}/>
+          <Card toggle={toggleLightbox} img={boat2}/>
+          <Card toggle={toggleLightbox} img={boat3}/>
+          <Card toggle={toggleLightbox} img={plant1}/>
+          <Card toggle={toggleLightbox} img={fruits1}/>
+          <Card toggle={toggleLightbox} img={teapot1}/>
+          <Card toggle={toggleLightbox} img={dog1}/>
+          <Card toggle={toggleLightbox} img={boy1}/>
+          <Card toggle={toggleLightbox} img={girl1}/>
+          <Card toggle={toggleLightbox} img={girl2}/>
+          <Card toggle={toggleLightbox} img={girl3}/>
+          <Card toggle={toggleLightbox} img={girl4}/>
         </div>
       </div>
     );
