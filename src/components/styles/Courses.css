@@ -1,20 +1,5 @@
 .container {
   margin: 20px auto 50px;
-<<<<<<< HEAD
-  max-width: 1218px;
-  width: 100%;
-  height: fit-content;
-} 
-
-.card-container {
-  max-width: 300px;
-  max-height: 500px;
-  border-radius: 10px;
-  width: 300px;
-  height: 500px;
-  transition: all 0.3s ease-out;
-  background-color: #D6E8DB;
-=======
   max-width: 76.125rem; /*1218px*/
   width: 100%;
   height: fit-content;
@@ -29,7 +14,6 @@
   height: 34.375rem;
   transition: all 0.2s ease-out;
   background-color: #dff7e0d0;
->>>>>>> Nathan
   border: 2px solid black;
   text-align: center;
 }
@@ -41,17 +25,11 @@
 
 .card-image {
   max-width: 100%;
-<<<<<<< HEAD
-  max-height: 50%;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-=======
   max-height: 55%;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
->>>>>>> Nathan
 }
 
 @media  (max-width: 1218px){
@@ -69,8 +47,6 @@
 .course-image {
   max-width: 100%;
   border-radius: 5px;
-<<<<<<< HEAD
-=======
 }
 
 .course-card-row{
@@ -89,5 +65,4 @@
 .introduction2{
   font-size: 24px;
   text-align: left;
->>>>>>> Nathan
 }

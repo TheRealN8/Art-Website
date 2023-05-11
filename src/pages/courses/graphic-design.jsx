@@ -6,10 +6,7 @@ function GraphicDesign() {
     return (
       <div className='container'>
       <h1>Become an expert in graphic design!</h1>
-<<<<<<< HEAD
-=======
       <h2>(SOFTWARE USED) Photoshop, Illustrator, InDesign (SEPERATE COURSES)</h2>
->>>>>>> Nathan
       <div style={{display: 'flex'}}>
         <div style={{width: '50%', paddingRight: '20px'}}>
           <div style={{padding: '0 10px', width: '100%'}}>

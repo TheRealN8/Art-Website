@@ -6,10 +6,7 @@ function Drawing() {
     return (
       <div className='container'>
         <h1>Learn how to create beautiful drawings!!</h1>
-<<<<<<< HEAD
-=======
         <h2>Sketching, Pastel, Colour pencil (SEPERATE COURSES)</h2>
->>>>>>> Nathan
         <div style={{display: 'flex'}}>
           <div style={{width: '50%', paddingRight: '20px'}}>
             <div style={{padding: '0 10px', width: '100%'}}>
