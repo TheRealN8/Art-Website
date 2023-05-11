@@ -2,6 +2,7 @@ import React from "react";
 import "./styles/AboutMe.css"
 
 import aboutMePic from "./images/aboutMePic.JPG";
+import qrcode from "./images/qrcode.jpg"
 
 function AboutMe () {
 

@@ -3,14 +3,10 @@ import "../../components/styles/Courses.css";
 import boat2 from "../../components/images/boat2.jpg";
 
 
-function CreativeArt() {
+function ChildPrograms() {
     return (
       <div className='container'>
-        <h1>Learn how to produce creative art!</h1>
-<<<<<<< HEAD
-=======
-        <h2>Creative Drawing, Creative Painting (SEPERATE COURSES)</h2>
->>>>>>> Nathan
+        <h1>Child Programs!</h1>
         <div style={{display: 'flex'}}>
           <div style={{width: '50%', paddingRight: '20px'}}>
             <div style={{padding: '0 10px', width: '100%'}}>
@@ -48,4 +44,4 @@ function CreativeArt() {
     );
 }
 
-export default CreativeArt;
+export default ChildPrograms;

@@ -11,6 +11,11 @@ import CreativeArt from "./pages/courses/creative-art";
 import DigitalArt from "./pages/courses/digital-art";
 import GraphicDesign from "./pages/courses/graphic-design";
 import Paintings from "./pages/courses/paintings";
+<<<<<<< HEAD
+=======
+import AnimeManga from "./pages/courses/anime-manga";
+import ChildPrograms from "./pages/courses/child-programs";
+>>>>>>> Nathan
 
 //<Route path="blogs" element={<Blogs />} />
 
@@ -27,9 +32,19 @@ const App = () => {
         <Route path='/course/' element={<CourseLayout />}>
           <Route path="/course/drawing" element={<Drawing />}/>
           <Route path="/course/paintings" element={<Paintings />}/>
+<<<<<<< HEAD
           <Route path="/course/graphic-design" element={<GraphicDesign />}/>
           <Route path="/course/digital-art" element={<DigitalArt />}/>
           <Route path="/course/creative-art" element={<CreativeArt />}/>
+=======
+          <Route path="/course/creative-art" element={<CreativeArt />}/>
+          <Route path="/course/digital-art" element={<DigitalArt />}/>
+          <Route path="/course/graphic-design" element={<GraphicDesign />}/>
+          <Route path="/course/anime-manga" element={<AnimeManga />}/>
+          <Route path="/course/child-programs" element={<ChildPrograms />}/>
+          
+          
+>>>>>>> Nathan
         </Route>
       </Routes>
     </BrowserRouter>

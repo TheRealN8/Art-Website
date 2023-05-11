@@ -7,7 +7,11 @@ const CourseCard = ({ isMiddle, link, image, title }) => {
 
     return(
         
+<<<<<<< HEAD
         <div className="card-container" style={{margin: isMiddle ? '0 5%' : '0'}}>
+=======
+        <div className="card-container" style={{margin: isMiddle ? '10px 10px 10px 4%' : '0'}}>
+>>>>>>> Nathan
           <Link to={link} style={{textDecoration: 'none', color: 'black'}}>
             <img src={image} alt="image" className="card-image"/>
             <h2>{title}</h2>
