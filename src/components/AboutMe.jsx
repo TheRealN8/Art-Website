@@ -19,6 +19,7 @@ function AboutMe () {
                 ugiw ahg uwahugih uwaighwua ihguwahug wahugiuwai ghuwai hugwa hguhiawhgwa
                 </p> 
                 <img className="about-image" src={aboutMePic}/>
+                <img className="qr-code" src={qrcode}/>
             </div>
         </div>
         

@@ -3,11 +3,11 @@ import "./styles/Gallery-card.css";
 
 
 
-function Card(props){
+const Card = ({ img, toggle }) => {
 
     return(
-        <div className="card">
-            <img src={props.img} alt="image" className="card-image"/>
+        <div onClick={() => toggle(img)} className="card">
+            <img src={img} alt="image" className="card-image"/>
         </div>
 
     );
