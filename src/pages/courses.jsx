@@ -52,7 +52,8 @@ function Courses() {
         <h1>All courses offered:</h1>
 
         <div className='course-card-row'>
-          <CourseCard image={squirrel1} title={'Drawing Courses'} link={'/course/drawing'} isMiddle={true}/>
+          <CourseCard image={squirrel1} title={'Drawing Courses'} link={'/course/drawing'} isMiddle={true}
+          text= {"Hello"}/>
           <CourseCard image={boat2} title={'Painting Courses'} link={'/course/paintings'} isMiddle={true}/>
           <CourseCard image={creativeArt} title={'Creative Art Courses'} link={'/course/creative-art'} isMiddle={true}/>
           
