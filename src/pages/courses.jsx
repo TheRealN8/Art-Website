@@ -8,21 +8,49 @@ import girl1 from "../components/images/girl1.PNG";
 import teapot1 from "../components/images/teapot1.JPG";
 import boat2 from "../components/images/boat2.jpg";
 
-
-
 import creativeArt from "../components/images/creativeArt.jpg";
-import gohan1 from "../components/images/gohan1.jpg"
+import gohan1 from "../components/images/gohan1.jpg";
+
+import qrcode from "../components/images/qrcode.jpg";
 
 
 function Courses() {
     return (
       <div className='container'>
-        <h1>All courses offered:</h1>
-        <div style={{padding: '0 10px'}} className='introduction2'>
-          At Lantian Art Studio, we believe that everyone has the potential to be a great artist. 
-          Our courses are designed to help you unlock your creativity and develop your skills in a supportive, encouraging environment. 
-          Join us today and start your artistic journey!
+        
+        <div className='course-pricing'>
+          <div style={{padding: '0 10px', marginTop: '10px', width: '100%', fontSize: '40px', fontWeight:'bold'}}>
+            Prices for ALL courses: 
+          </div>
+          <div style={{padding: '0 10px', marginTop: '10px', width: '100%', fontSize: '24px', fontWeight:'500'}}>
+            $35 for 1hr 30min group session 
+          </div>
+          <div style={{padding: '0 10px', width: '100%', fontSize: '16px', fontWeight:'500'}}>
+          (Only children ages 4-8 are eligible for a 1hr 30min session) 
+          </div>
+          <div style={{padding: '0 10px', marginTop: '10px', width: '100%', fontSize: '24px', fontWeight:'500'}}>
+            $45 for 2hr group session
+          </div>
+          <div style={{padding: '0 10px', marginTop: '10px', width: '100%', fontSize: '24px', fontWeight:'500'}}>
+            $90 for 4hr group session 
+          </div>
+          <div style={{padding: '0 10px', marginTop: '10px', width: '100%', fontSize: '24px', fontWeight:'500'}}>
+            $90 for 1hr private session 
+          </div>
+          <div style={{padding: '0 10px', marginTop: '10px', width: '100%', fontSize: '24px', fontWeight:'bold'}}>
+            Digital course prices may vary
+          </div>
+          <img src={qrcode} className='course-qrcode'/>
+          <div className='wechat-contact-text'>
+            Contact me on WeChat!
+          </div>
         </div>
+
+        <br/>
+
+        
+        <h1>All courses offered:</h1>
+
         <div className='course-card-row'>
           <CourseCard image={squirrel1} title={'Drawing Courses'} link={'/course/drawing'} isMiddle={true}/>
           <CourseCard image={boat2} title={'Painting Courses'} link={'/course/paintings'} isMiddle={true}/>

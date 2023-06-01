@@ -68,6 +68,30 @@
   text-align: left;
 }
 
+.course-pricing{
+  border-color: black;
+  border-style: solid;
+  padding-bottom: 5px;
+  text-align: center;
+
+}
+
+.course-qrcode{
+  height: 14rem;
+  width: 14rem;
+  margin-left: 55rem;
+  margin-top: -15rem;
+  transform: translateY(-2rem);
+}
+
+.wechat-contact-text{
+  margin-left: 55rem;
+  transform: translateY(-2rem);
+
+}
+
+
 .drawing-course-subsections{
   /* FILLER */
 }
+

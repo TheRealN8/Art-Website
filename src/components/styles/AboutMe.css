@@ -19,22 +19,13 @@ h1{
 }
 
 .about-image{
-    margin-left: 4rem;
+    margin-left: 6rem;
     margin-bottom: 10rem;
-    margin-top: -5rem;
-    height: 39rem;
-    width: 31.25rem;
+    margin-top: 2rem;
+    height: 65rem;
+    width: 45rem;
     border-radius: 10px;
 }
 
-.qr-code{
-    margin-left: 1rem;
-    margin-bottom: 10rem;
-    margin-top: -5rem;
-    height: 20rem;
-    width: 20rem;
-    border-radius: 10px;    
-
-}
 
 

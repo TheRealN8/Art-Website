@@ -11,17 +11,16 @@ function CreativeArt() {
         <div style={{display: 'flex'}}>
           <div style={{width: '50%', paddingRight: '20px'}}>
             <div style={{padding: '0 10px', width: '100%'}}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-              Nulla nibh ipsum, semper sed accumsan in, dictum in nunc. Cras pulvinar, tortor vel consectetur efficitur, 
-              metus lacus maximus ex, id hendrerit diam mauris at tellus. Vivamus in odio sollicitudin, lobortis dolor pellentesque, 
-              suscipit eros. Integer vitae aliquam lacus. Fusce vel magna a libero faucibus rutrum in at lacus. Nam erat velit, blandit e
+            Unleashing Creativity: Exploring the Boundless World of Art is a captivating and transformative art course designed to ignite 
+            the imaginative spark within you. In this dynamic program, you will embark on an exhilarating journey through various artistic mediums, 
+            discovering new techniques and pushing the boundaries of your own artistic expression.
             </div>
             <ul className='course-list' style={{margin: '30px'}}>
               <li>
-                Interesting fact!
+                You'll delve into the fundamental principles of drawing, learning to observe and interpret the world around you with fresh eyes. 
               </li>
               <li>
-                Interesting fact!
+                You'll explore the rich tapestry of painting, developing skills that will breathe life into your imagination.
               </li>
               <li>
                 Interesting fact!
@@ -31,10 +30,9 @@ function CreativeArt() {
               </li>
             </ul>
             <div style={{padding: '0 10px', marginTop: '10px', width: '100%'}}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-              Nulla nibh ipsum, semper sed accumsan in, dictum in nunc. Cras pulvinar, tortor vel consectetur efficitur, 
-              metus lacus maximus ex, id hendrerit diam mauris at tellus. Vivamus in odio sollicitudin, lobortis dolor pellentesque, 
-              suscipit eros. Integer vitae aliquam lacus. Fusce vel magna a libero faucibus rutrum in at lacus. Nam erat velit, blandit e
+            By the end of this course, you will have developed a diverse portfolio of original artwork, reflecting your personal 
+            journey of self-discovery and artistic exploration. You will also acquire a strong foundation in art theory, enabling 
+            you to articulate your artistic vision and engage in meaningful artistic dialogues.
             </div>
 
             <div className='drawing-course-subsections' style={{padding: '0 10px', marginTop: '8rem', width: '100%'}}>

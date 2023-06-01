@@ -28,24 +28,9 @@ function Drawing() {
             <div style={{padding: '0 10px', marginTop: '10px', width: '100%'}}>
               Elevate your drawing skills and embark on a creative journey that will inspire and challenge you. 
               Whether you're a beginner or an experienced artist, our drawing courses will help you refine your techniques, 
-              expand your artistic horizons, and create beautiful drawings that reflect your unique vision. e
+              expand your artistic horizons, and create beautiful drawings that reflect your unique vision.
             </div>
 
-            <div style={{padding: '0 10px', marginTop: '10px', width: '100%', fontSize: '24px'}}>
-              Prices: 
-            </div>
-            <div style={{padding: '0 10px', marginTop: '10px', width: '100%', fontSize: '24px'}}>
-              $35 for 1:30 group session (Only children ages 4-8 are eligible for a 1:30 session) 
-            </div>
-            <div style={{padding: '0 10px', marginTop: '10px', width: '100%', fontSize: '24px'}}>
-              $45 for 2:00 group session) 
-            </div>
-            <div style={{padding: '0 10px', marginTop: '10px', width: '100%', fontSize: '24px'}}>
-              $90 for 4:00 group session 
-            </div>
-            <div style={{padding: '0 10px', marginTop: '10px', width: '100%', fontSize: '24px'}}>
-              $90 for 1:00 private session 
-            </div>
 
 
             <div className='drawing-course-subsections' style={{padding: '0 10px', marginTop: '8rem', width: '100%'}}>
@@ -53,6 +38,7 @@ function Drawing() {
               <h2>Master the Art of Sketching</h2>
               <p>Unlock your creative potential and learn the fundamental techniques of sketching in our comprehensive Sketching Course. 
                 Whether you're a beginner or an experienced artist, this course will take your sketching skills to the next level.</p>
+              
             </div>
 
             <div className='drawing-course-subsections' style={{padding: '0 10px', marginTop: '6rem', width: '100%'}}>

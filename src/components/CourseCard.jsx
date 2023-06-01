@@ -11,8 +11,7 @@ const CourseCard = ({ isMiddle, link, image, title }) => {
           <Link to={link} style={{textDecoration: 'none', color: 'black'}}>
             <img src={image} alt="image" className="card-image"/>
             <h2>{title}</h2>
-            <p style={{padding: '0 10%'}}> Ut suscipit faucibus massa, fringilla rhoncus augue sagittis vel. Quisque tempor a lorem sed suscipit. Donec cursus, turpis ut 
-            sollicitudin porttitor</p>
+            <p style={{padding: '0 10%'}}> Click to view course information</p>
           </Link>
         </div>
         
