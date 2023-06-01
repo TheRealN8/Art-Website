@@ -9,17 +9,13 @@
 }
 
 .slideshow{
-  width: 70rem;
-  height: 50rem;
+  /* width: 70rem; */
+  width: 70%;
   margin: 5rem auto 12rem;
   text-align: center;
-  
 }
 
 .slideshow-image{
-  width: 70rem;
-  height: 50rem;
+  width: 100%;
 }
-
-
 

@@ -80,12 +80,13 @@
   width: 14rem;
   margin-left: 55rem;
   margin-top: -15rem;
-  transform: translateY(-2rem);
+  margin-bottom: 30px;
+  /* transform: translateY(-2rem); */
 }
 
 .wechat-contact-text{
   margin-left: 55rem;
-  transform: translateY(-2rem);
+  /* transform: translateY(-2rem); */
 
 }
 
