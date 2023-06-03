@@ -3,16 +3,15 @@ import './styles/Courses.css'
 import { Link } from "react-router-dom";
 import clsx from "clsx";
 
-const CourseCard = ({ isMiddle, link, image, title }) => {
+const CourseCard = ({ isMiddle, link, image, title, text}) => {
 
     return(
         
         <div className="card-container" style={{margin: isMiddle ? '10px 10px 10px 4%' : '0'}}>
           <Link to={link} style={{textDecoration: 'none', color: 'black'}}>
-            <img src={image} alt="image" className="card-image"/>
+            <img src={image} alt="image" className="card-image-gallery"/>
             <h2>{title}</h2>
-            <p style={{padding: '0 10%'}}> Ut suscipit faucibus massa, fringilla rhoncus augue sagittis vel. Quisque tempor a lorem sed suscipit. Donec cursus, turpis ut 
-            sollicitudin porttitor</p>
+            <p style={{padding: '0 10%'}}> {text}</p>
           </Link>
         </div>
         

@@ -10,9 +10,11 @@ function Home() {
     return (
       <div className='home-box'>
         <p className='introduction'>
-          Welcome to Lantian Art Studio, where creativity comes to life! 
-          Our studio is dedicated to providing exceptional art education for students of all skill levels. 
-          Whether you're a beginner or an experienced artist, we have the perfect course for you.
+          Lantian Art Studio is an online school for young art lovers, collectors and artists alike. 
+          Our mission is to connect the beauty of art with enthusiastic new students, 
+          and to provide support for emerging artists of all styles and genres. We offer courses on paintings, 
+          drawings, digital art, etc... Carefully curated by the Chinese professional artist Jun Zhang. 
+          Have a look at our gallery and courses and contact us with any questions.
         </p>
         <Showcase />
       </div>
